@@ -1,13 +1,13 @@
 {
-    "title": "Meekdai",
-    "displayTitle": "eekdai",
-    "subTitle": "童话是一种生活态度，仅此而已。",
-    "homeUrl": "http://blog.meekdai.com",
-    "avatarUrl": "http://meekdai.com/avatar.jpg",
-    "faviconUrl": "http://meekdai.com/favicon.ico",
-    "email": "meekdai@163.com",
-    "startSite": "02/16/2015",
-    "filingNum": "浙ICP备20023628号",
+    "title": "叶",
+    "displayTitle": "have a fun life",
+    "subTitle": "简单记录，快乐生活",
+    "homeUrl": "https://yeqiling.github.io",
+    "avatarUrl": "https://notion-avatar.vercel.app/api/img/eyJmYWNlIjoxMSwibm9zZSI6OCwibW91dGgiOjAsImV5ZXMiOjYsImV5ZWJyb3dzIjoxMywiZ2xhc3NlcyI6OCwiaGFpciI6MTQsImFjY2Vzc29yaWVzIjowLCJkZXRhaWxzIjowLCJiZWFyZCI6MCwiZmxpcCI6MCwiY29sb3IiOiJyZ2JhKDI1NSwgMCwgMCwgMCkiLCJzaGFwZSI6Im5vbmUifQ==",
+    "faviconUrl": "https://notion-avatar.vercel.app/api/img/eyJmYWNlIjoxMSwibm9zZSI6OCwibW91dGgiOjAsImV5ZXMiOjYsImV5ZWJyb3dzIjoxMywiZ2xhc3NlcyI6OCwiaGFpciI6MTQsImFjY2Vzc29yaWVzIjowLCJkZXRhaWxzIjowLCJiZWFyZCI6MCwiZmxpcCI6MCwiY29sb3IiOiJyZ2JhKDI1NSwgMCwgMCwgMCkiLCJzaGFwZSI6Im5vbmUifQ==",
+    "email": "yeqiling2017@gmail.com",
+    "startSite": "08/02/2023",
+    "filingNum": "无备案",
     "singlePage": [
         "link",
         "about"
