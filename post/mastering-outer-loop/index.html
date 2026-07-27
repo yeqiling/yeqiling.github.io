@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no, email=no, address=no">
 
     <meta name="generator" content="Gridea Pro 1.2.2">
-    <title>归档 | 叶子的博客</title>
+    <title>掌控外循环 | 叶子的博客</title>
 
     
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
@@ -249,24 +249,26 @@
     
 
     
-<link rel="canonical" href="https://yeqiling.github.io/archives/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"叶子的博客","url":"https://yeqiling.github.io","description":"","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string","target":"https://yeqiling.github.io/search?q={search_term_string}"}}</script>
-<meta property="og:title" content="叶子的博客">
-<meta property="og:description" content="">
-<meta property="og:url" content="https://yeqiling.github.io/archives/">
-<meta property="og:type" content="website">
+<meta name="description" content="最近一年，关于智能体工程的讨论，话题的“水位”明显涨了。大家不再只聊某个模型有多强，而是开始聚焦于工具链、运行循环、集群调度，乃至整个软件工厂的构建。风向很明确：我们从“能不能做”，转向了“怎么用好”。 我的观点很简单，甚至有些“老派”：工程师必须掌控“外循环”。当Fable、GPT-5.6这类越来越像“黑箱”的强大模型出现时，人类在系统中负责“兜底”这件事，不是被削弱了，而是更重要了。 &amp;hellip;">
+<link rel="canonical" href="https://yeqiling.github.io/post/mastering-outer-loop/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"掌控外循环","url":"https://yeqiling.github.io/post/mastering-outer-loop/","description":"最近一年，关于智能体工程的讨论，话题的“水位”明显涨了。大家不再只聊某个模型有多强，而是开始聚焦于工具链、运行循环、集群调度，乃至整个软件工厂的构建。风向很明确：我们从“能不能做”，转向了“怎么用好”。 我的观点很简单，甚至有些“老派”：工程师必须掌控“外循环”。当Fable、GPT-5.6这类越来越像“黑箱”的强大模型出现时，人类在系统中负责“兜底”这件事，不是被削弱了，而是更重要了。 \u0026hellip;","datePublished":"2026-07-28T01:37:23Z","dateModified":"2026-07-28T01:37:23Z","author":{"@type":"Person","name":"叶子的博客"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"叶子的博客"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://yeqiling.github.io","name":"叶子的博客","position":1},{"@type":"ListItem","item":"https://yeqiling.github.io/post/mastering-outer-loop/","name":"掌控外循环","position":2}]}</script>
+<meta property="og:title" content="掌控外循环">
+<meta property="og:description" content="最近一年，关于智能体工程的讨论，话题的“水位”明显涨了。大家不再只聊某个模型有多强，而是开始聚焦于工具链、运行循环、集群调度，乃至整个软件工厂的构建。风向很明确：我们从“能不能做”，转向了“怎么用好”。 我的观点很简单，甚至有些“老派”：工程师必须掌控“外循环”。当Fable、GPT-5.6这类越来越像“黑箱”的强大模型出现时，人类在系统中负责“兜底”这件事，不是被削弱了，而是更重要了。 &amp;hellip;">
+<meta property="og:url" content="https://yeqiling.github.io/post/mastering-outer-loop/">
+<meta property="og:type" content="article">
 <meta property="og:site_name" content="叶子的博客">
 <meta property="og:image" content="/images/avatar.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://yeqiling.github.io/archives/">
-<meta name="twitter:title" content="叶子的博客">
-<meta name="twitter:description" content="">
+<meta name="twitter:url" content="https://yeqiling.github.io/post/mastering-outer-loop/">
+<meta name="twitter:title" content="掌控外循环">
+<meta name="twitter:description" content="最近一年，关于智能体工程的讨论，话题的“水位”明显涨了。大家不再只聊某个模型有多强，而是开始聚焦于工具链、运行循环、集群调度，乃至整个软件工厂的构建。风向很明确：我们从“能不能做”，转向了“怎么用好”。 我的观点很简单，甚至有些“老派”：工程师必须掌控“外循环”。当Fable、GPT-5.6这类越来越像“黑箱”的强大模型出现时，人类在系统中负责“兜底”这件事，不是被削弱了，而是更重要了。 &amp;hellip;">
 <meta name="twitter:image" content="/images/avatar.png">
 </head>
 
-<body>
+    <body>
 
-<script>
+        <script>
     (function () {
         const getSystemTheme = () => {
             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -326,38 +328,124 @@
 </header>
 <!-- <a href="#" id="back-to-top" style="display: inline;"> ^ </a> -->
 
-<section class="section-body">
-    <header class="section-header u-textAlignCenter">
-        <h2>归档</h2>
-    </header>
-<article class="mod-archive">
+            <article class="mod-post mod-post__type-post">
+                <header>
+                    <h1 class="mod-post__title">
+                        掌控外循环
+                    </h1>
+                </header>
 
-	<div class="mod-archive__item"><div class="mod-archive__year"></div>
+                <div class="mod-post__meta">
+                    <time datetime="2026-07-28">
+                        2026-07-28
+                    </time> • 4 分钟阅读 •
+                        
+                </div>
 
-</br>
 
-		<ul class="mod-archive__list">
-            
-			<li>
-				<time class="mod-archive__time" datetime="2026-07-28">2026-07-28</time> 
-				<span>&nbsp;&nbsp;&nbsp;</span>
-      			 <a href="/post/mastering-outer-loop/">掌控外循环</a>
-      		</li>
-            
-				
-		</ul>
 
-		<div class="posts-nav">
-            
-            
-            
-		</div>
+                <div class="mod-post__entry wzulli">
+                    
+                            <p>最近一年，关于智能体工程的讨论，话题的“水位”明显涨了。大家不再只聊某个模型有多强，而是开始聚焦于工具链、运行循环、集群调度，乃至整个软件工厂的构建。风向很明确：我们从“能不能做”，转向了“怎么用好”。</p>
+<p>我的观点很简单，甚至有些“老派”：工程师必须掌控“外循环”。当Fable、GPT-5.6这类越来越像“黑箱”的强大模型出现时，人类在系统中负责“兜底”这件事，不是被削弱了，而是更重要了。</p>
+<!-- more -->
+<h3 id="heading">从“写代码”到“下裁决”</h3>
+<p>智能体天然带有杠杆效应——它能把一个人的想法放大千百倍。但杠杆的背面是责任。</p>
+<p>在AI辅助编码的时代，工程师的角色悄然发生了迁移。过去我们最重要的产出是代码，现在最重要的产出是<strong>决策</strong>。</p>
+<p>我把这个过程总结为三个关键词：<strong>质量、裁决、可解释性</strong>。</p>
+<p><strong>质量</strong>，是我们放行系统前设置的所有护栏：测试、沙箱、权限校验。这些护栏会产出<strong>证据</strong>。而<strong>裁决</strong>，是工程师基于证据做的最终生产决策——是放行，还是拦截、重定向、加护栏，或直接拒绝？模型可以起草一段代码，但按下“发布”键的那个人，必须对这段代码负有最终责任。这就是裁决。</p>
+<p><strong>可解释性</strong>则是一种兜底的承诺。如果有人问“为什么要这么改”，你拿得出理由，经得起推敲。</p>
+<p>把这三件事理清楚，我们就找到了人类在新工作流中的位置：<strong>智能体负责执行，人类负责在边界处下判断。</strong></p>
+<h3 id="heading-1">智能体工厂：内环与外环的分工</h3>
+<p>既然要规模化使用智能体，我们就需要一套工程化的框架。你可以把整个系统想象成一个<strong>软件工厂</strong>。这个工厂里，最核心的工程活动围绕两个“环”展开：</p>
+<ol>
+<li><strong>工具链工程</strong>：模型只是引擎，而工具、记忆、权限、沙箱才是车身。你必须把车造得足够结实，引擎才能安全地跑起来。</li>
+<li><strong>循环工程</strong>：把工具链放进一个“调查-实现-验证-重复”的闭环中。这个循环的目标是让一次成功的操作，变成一套可被信任和重复的流程。</li>
+</ol>
+<p>当无数个这样的循环并行运转时，软件工厂就诞生了。在这个工厂里，分工变得清晰：</p>
+<ul>
+<li><strong>智能体运行内环</strong>：负责具体的调查、编码、测试等执行工作。</li>
+<li><strong>工程师掌控外环</strong>：负责设定输入、定义约束、审查证据、做出裁决。</li>
+</ul>
+<p>所以，<strong>让智能体写代码，让工程师做判断</strong>。这不仅仅是为了效率，更是为了安全。因为只有人类能理解业务意图，也只有人类能为最终的后果负责。</p>
+<h3 id="heading-2">当生成速度超过控制速度</h3>
+<p>这套分工模式不是凭空设想的，而是被现实倒逼出来的。</p>
+<p>数据显示，AI生成的代码占比已经达到了相当可观的比例，并且还在上升。创作的成本急剧下降，但<strong>审查、验证、理解和维护</strong>这些环节，却成了新的瓶颈。</p>
+<p>我们正在经历一个“信任-验证”的缺口：<strong>生成变快了，但验证跟不上了。</strong></p>
+<p><strong>GitLab</strong> 和 <strong>Sonar</strong> 的报告都指向了同一个隐忧：治理和审查往往发生在代码生成之后，而那时我们已经默认接受了风险。审查者已经不堪重负，如果只是盲目信任AI的输出，系统将变得极其脆弱。</p>
+<p>更麻烦的是，当AI长期自主运行时，会产生三个隐性的成本：</p>
+<ol>
+<li><strong>认知让渡</strong>：盲目接受AI给出的答案。研究显示，即使AI错了，七成以上的人还是会照单全收，甚至比没有AI时更自信。</li>
+<li><strong>认知债务</strong>：长期依赖AI，工程师对系统底层逻辑的理解会逐渐衰退。让AI写代码，自己只看结果，就像让代驾开车，自己坐后座——时间长了，你对路况的感知会变得迟钝。Anthropic的研究表明，依赖AI的工程师在代码理解力测试中，得分比独立完成的同行低了17%。</li>
+<li><strong>编排税</strong>：同时调度、审查、纠偏多个智能体需要耗费巨大的心智资源，而这种“多线程”的注意力，是无法被自动化替代的。</li>
+</ol>
+<p>这三重成本告诉我们：仅仅把智能体放出去是不够的，我们必须重新思考，如何构建有效的<strong>背压机制</strong>，去平衡这股强大的生产力。</p>
+<h3 id="heading-3">什么是真正的“工程”？</h3>
+<p>当AI承担了大部分机械性的编码工作，人类工程师的价值锚点在哪里？</p>
+<p>未来的工程师，不再仅仅是“写代码的人”，而是<strong>对系统最终结果负责的人</strong>。我们需要回到“工程”的本源：严谨的逻辑、对约束的权衡、对风险的识别，以及最重要的——<strong>问责制</strong>。</p>
+<p>一个重要的公式是：<strong>技能 × 问责 = 信任</strong>。技能带来杠杆，但只有问责才能把杠杆转化为别人对你的信任。</p>
+<p>工程师需要从“完成任务”升级到“<strong>传授任务、系统化流程、决定时机、承担结果</strong>”。当智能体能够产生海量产出，真正的稀缺资源，是工程师在质量信号（如日志、测试）的辅助下，所做出的<strong>核心人类判断</strong>。</p>
+<p>这些判断，统称为<strong>品味</strong>。它是在数据指标出现之前，就能凭经验预判方向的直觉。<strong>品味无法被自动化，它是人类在这个时代最有价值的护城河。</strong></p>
+<h3 id="heading-4">结语：新工作是真实的工作</h3>
+<p>有人担心AI会让工程师失业。我的观察恰恰相反——它会催生更有价值的新工作。</p>
+<p>未来，我们会看到角色的重组：有人负责原型探索，有人负责系统维护，有人负责“清扫”技术债务。但所有这些角色的内核不会变，那就是<strong>所有权</strong>。</p>
+<p>每一个AI生成的代码变更，都应该附上一份“问责契约”：谁做的决策？基于什么证据？系统状态如何？这既是日志，也是承诺。</p>
+<p>自动化会消灭重复劳动，但也会创造新的瓶颈。瓶颈从“我们能不能做出来”，变成了“这个东西该不该存在，以及出了问题谁来负责”。</p>
+<p>而回答这些问题的能力，正是“掌控外循环”的精髓所在。</p>
+<p><strong>智能体可以写代码，但只有人类能担责任。</strong> 这就是我们这一代工程师的新工作，也是真正的工作。</p>
 
+                </div>
+
+            </article>
+
+
+            
+                
+	<div class="mod-post__foot">
+	 文章标签: 
+     
+     </br>
 	</div>
-</article>
-    </section>
 
-<footer id="footer" class="footer">
+                    
+
+                        <div class="mod-post__poster">
+                        </div>
+
+                        </div>
+
+                        
+                            
+<br>
+
+<div style="margin-bottom: 10px;">
+    上一篇 : 已经是第一篇文章了~
+</div>
+
+
+
+<div>
+    下一篇 : 没有下一篇文章了~
+</div>
+
+
+</div>	
+
+                                
+
+                                    
+                                        <!-- Reading Progress Component -->
+<div class="reading-progress-container">
+  <span class="reading-label">阅读进度</span>
+  <span class="reading-value">0%</span>
+  <svg class="progress-ring" viewBox="0 0 24 24">
+    <!-- Background Circle -->
+    <circle class="progress-ring__circle-bg" stroke-width="3" fill="transparent" r="10" cx="12" cy="12" />
+    <!-- Progress Circle -->
+    <circle class="progress-ring__circle" stroke-width="3" fill="transparent" r="10" cx="12" cy="12" />
+  </svg>
+</div>
+                                            <footer id="footer" class="footer">
     <nav>
         
             
@@ -401,6 +489,8 @@
 
 
 
-<script>console.log("\n%c ✦ Gridea Pro v1.2.2 %c · Theme: amore v1.1.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+
+    <script>console.log("\n%c ✦ Gridea Pro v1.2.2 %c · Theme: amore v1.1.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
 </body>
-</html>
+
+    </html>
